@@ -1,0 +1,9 @@
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int[] num=new num[5];
+		num[0]=10;
+		System.out.println(num[0]);
+	}
+}

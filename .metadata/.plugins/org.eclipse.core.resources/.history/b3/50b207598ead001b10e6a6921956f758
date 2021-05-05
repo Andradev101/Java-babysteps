@@ -1,0 +1,12 @@
+
+public class Main {
+	public static void main(String[] args) {
+		
+		//int[] num=new int[5];
+			//variavel chamado num do tipo array de inteiro
+			//novo array num de tamanho 5
+		
+		char[] gabarito =  {'a','a','a','a','a'};
+		
+	}
+}

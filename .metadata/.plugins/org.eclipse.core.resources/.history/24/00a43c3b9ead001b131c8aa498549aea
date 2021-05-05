@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		
+		//int[] num=new int[5];
+			//variavel chamado num do tipo array de inteiro
+			//novo array num de tamanho 5
+		char[] respostas = new char[5];
+		char[] gabarito = {'a','c','d','d','b'};
+		Scanner scan = new Scanner(System.in);
+		
+		for (int res = 0; res < respostas.length; res++) {
+			System.out.printf("Resposta "+ res +": ");
+			scan.nextLine();
+		}
+		System.out.printf("Resposta foi " + respostas[0]);
+		for(int i = 0; i < gabarito.length; i++) {
+			if(respostas[i] == gabarito[i]) {
+				System.out.println(gabarito[i]+" Correto");
+			}else {
+				System.out.println(gabarito[i]+" Incorreto");
+			}
+		}
+		
+	}
+}
